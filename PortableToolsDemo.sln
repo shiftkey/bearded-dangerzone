@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableToolsDemo", "Portab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Portable", "Autofac.Portable\Autofac.Portable.csproj", "{33F20F32-DBC2-4B93-97F5-DD75D9DFBD89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClassLibrary", "PortableClassLibrary\PortableClassLibrary.csproj", "{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableToolsDemoBinary", "PortableToolsDemoBinary\PortableToolsDemoBinary.csproj", "{3E416A48-1E00-42AC-8108-26761A58E568}"
 EndProject
 Global
@@ -79,16 +77,6 @@ Global
 		{E09AC3B3-268D-4154-A8A3-A3E58183F7EF}.Release|x86.ActiveCfg = Release|x86
 		{E09AC3B3-268D-4154-A8A3-A3E58183F7EF}.Release|x86.Build.0 = Release|x86
 		{E09AC3B3-268D-4154-A8A3-A3E58183F7EF}.Release|x86.Deploy.0 = Release|x86
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Release|ARM.ActiveCfg = Release|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Release|x64.ActiveCfg = Release|Any CPU
-		{FA6BEAE9-AAA9-4E8E-8385-767C7E9C38CC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
