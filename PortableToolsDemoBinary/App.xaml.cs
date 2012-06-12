@@ -7,7 +7,7 @@ using Windows.UI.Xaml.Controls;
 
 namespace PortableToolsDemo
 {
-    sealed partial class App
+    sealed partial class App 
     {
         public App()
         {

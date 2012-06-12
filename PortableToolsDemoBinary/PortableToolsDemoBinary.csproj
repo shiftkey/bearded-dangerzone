@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E09AC3B3-268D-4154-A8A3-A3E58183F7EF}</ProjectGuid>
+    <ProjectGuid>{3E416A48-1E00-42AC-8108-26761A58E568}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PortableToolsDemo</RootNamespace>
@@ -147,10 +147,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Autofac.Portable\Autofac.Portable.csproj">
-      <Project>{33f20f32-dbc2-4b93-97f5-dd75d9dfbd89}</Project>
-      <Name>Autofac.Portable</Name>
-    </ProjectReference>
+    <Reference Include="Autofac">
+      <HintPath>..\libs\Autofac.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
     <VisualStudioVersion>11.0</VisualStudioVersion>
